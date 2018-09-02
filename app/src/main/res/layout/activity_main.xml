@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0264ad7"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/tx_relleno"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:id="@+id/tx_bin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Binario:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/ed_bin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:digits="01"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:textColor="#cc2626" />
+
+    <TextView
+        android:id="@+id/tx_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Decimal:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/ed_dec"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:textColor="#cc2626" />
+
+    <TextView
+        android:id="@+id/tx_hex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Hexadecimal:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/ed_hex"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:digits="0123456789ABCDEF"
+        android:imeOptions="actionDone"
+        android:inputType="textCapCharacters"
+        android:maxLength="15"
+        android:textColor="#cc2626" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="true">Conversor de Bases</string>
+    <string name="tx_bin"> Binario</string>
+    <string name="tx_dec"> Decimal</string>
+    <string name="tx_hex"> Hexadecimal</string>
+    <string name="bt_trans">Idioma</string>
+</resources>

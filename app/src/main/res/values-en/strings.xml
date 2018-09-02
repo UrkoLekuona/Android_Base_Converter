@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="true">Conversor de Bases</string>
+    <string name="tx_bin"> Binary</string>
+    <string name="tx_dec"> Decimal</string>
+    <string name="tx_hex"> Hexadecimal</string>
+    <string name="bt_trans">Language</string>
+</resources>
